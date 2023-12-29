@@ -1,0 +1,15 @@
+.inicio {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+
+    &__conteudo {
+    }
+
+    &__video {
+        iframe {
+            width: 100%;
+        }
+    }
+}

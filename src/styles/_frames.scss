@@ -1,0 +1,16 @@
+.frames {
+    border-bottom: 1px solid #ccc;
+    &__links {
+        display: grid;
+        grid-template-columns: repeat(4, 24.25%);
+        justify-content: space-between;
+
+        &__item {
+            border: 5px solid;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

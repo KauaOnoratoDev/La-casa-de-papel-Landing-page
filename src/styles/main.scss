@@ -1,0 +1,30 @@
+@use 'header';
+@use 'inicio';
+@use 'frames';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    padding: 1vw;
+}
+
+.text {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
